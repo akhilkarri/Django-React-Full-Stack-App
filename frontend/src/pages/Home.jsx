@@ -58,14 +58,14 @@ function Home() {
                 />
                 <label htmlFor="content">Content:</label>
                 <br />
-                <textarea>
+                <textarea
                     type="text"
                     id="content"
                     name="content"
                     required
                     value={content}
                     onChange={(e) => setContent(e.target.value)}
-                </textarea>
+                />
                 <br />
                 <input type="submit" value="Submit"></input>
             </form>
